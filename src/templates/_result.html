@@ -1,0 +1,9 @@
+${scope.index % 2 === 1 ? '<div class="card-deck">' : ''}
+<div class="card">
+    <img class="card-img-top img-fluid" src="${scope.el.backdrop_path}" alt="${scope.el.title}">
+    <div class="card-block">
+      <h4 class="card-title">${scope.el.title}</h4>
+      <p class="card-text">${scope.el.overview}</p>
+    </div>
+  </div>
+${scope.index % 2 === 0 || scope.index === scope.total ? '</div>' : ''}
