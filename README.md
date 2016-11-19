@@ -1,4 +1,4 @@
-# moviedb-challenge
+# moviedb-challenge [![Build Status](https://travis-ci.org/adamcupial/moviedb-challenge.svg?branch=master)](https://travis-ci.org/adamcupial/moviedb-challenge)
 
 Proof of concept using webpack with es6 syntax, fetchAPI and karma/mocha tests
 
