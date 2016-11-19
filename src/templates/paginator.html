@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-md-10 col-sm-8">
+    <nav aria-label="..." class="row">
+      <ul class="pagination">
+        <li class="page-item ${scope.page === 1 ? 'disabled' : ''}" data-page="${scope.page - 1}">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item ${scope.page === scope.total ? 'disabled' : ''}" data-page="${scope.page + 1}">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="col-md-2 col-sm-4">
+    Page ${scope.page} of ${scope.total}
+  </div>
+</div>
